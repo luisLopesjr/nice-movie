@@ -38,8 +38,7 @@ function Home() {
             })
             .catch((error) => console.error(error))
         }       
-        getAllData()    
-      
+        getAllData()          
     }, [])
 
     return (
